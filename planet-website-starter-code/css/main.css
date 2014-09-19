@@ -29,3 +29,51 @@ img {
   display: block;
   width: 100%;
 }
+
+.title {
+    display: block;
+    padding: 1rem;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+
+}
+
+.nav li {
+    border-top: 1px solid #666;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a {
+    display: block;
+    padding: 0.5rem 0.75em;
+    color: #0074D9;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 20em) {
+    
+    
+    .nav {
+        text-align: center; 
+        margin: 1.5rem;
+        padding: 0;
+    }
+    
+    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+    
+
+}
