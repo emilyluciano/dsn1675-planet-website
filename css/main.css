@@ -43,6 +43,9 @@ img {
 
 .sub-title {
     text-align: center;
+    background-color: lightgray;
+    padding:0;
+    margin:0;
 }
 
 .nav {
