@@ -25,12 +25,24 @@ body {
   padding: 0;
 }
 
+.sectionlight {
+    background-color: #efefef;
+}
+
+.sectionmedium {
+    background-color: #e2e2e2;
+}
+
+.sectiondark {
+    background-color: #ccc;
+}
+
 img {
   display: block;
   width: 100%;
 }
 
-.header {
+.banner {
     background-color: #ccc;
     overflow: hidden;
 }
@@ -54,13 +66,27 @@ img {
     color: #0074D9;
 }
 
+.nav a:hover {
+    background-color: #0074d9;
+    color: white;
+}
+
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.footer {
+    background-color: #e2e2e2;
+}
+
 .nav a {
     display: block;
-    padding:0;
+    padding;0;
     text-decoration: none;
 }
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 20em){
 
     .nav li {
         display: inline-block;
@@ -71,7 +97,7 @@ img {
     }    
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 40em){
 
     .title {
         float: left;
