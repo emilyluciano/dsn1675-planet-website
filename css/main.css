@@ -61,7 +61,7 @@ img {
 }
 
 .nav {
-    padding: 0;
+    display: block;
     list-style-type: none; 
     color: #0074D9;
 }
