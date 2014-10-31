@@ -54,6 +54,14 @@ a:focus {
     top: 0;
 }
 
+.radio {
+    white-space: nowrap;
+}
+
+p, footer {
+text-align: center;
+}
+
 .sectionlight {
     background-color: #efefef;
 }
@@ -76,10 +84,22 @@ img {
     overflow: hidden;
 }
 
+.signup {
+    text-align: center;
+}
+
 .title {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.button {
+    font-size: 1.5em;
+}
+
+.button-pos {
+    text-align: center;
 }
 
 .sub-title {
@@ -107,11 +127,32 @@ img {
 
 .footer {
     background-color: #e2e2e2;
-    
+}
+
+.footer ul a::after { 
+  content: " ·";
 }
 
 .header a::after {
     content: " ·";
+}
+
+.field {
+    display: block;
+    padding-top: .5em;
+}
+
+.text {
+    width: 100%;
+    padding: .5em;
+    font-size: 1em;
+}
+
+.textbox {
+    height: 15em;
+    width: 100%;
+    padding: .5em;
+    font-size: 1.2em;
 }
 
 .header li:last-child a::after {
