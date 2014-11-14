@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -58,12 +57,17 @@ a:focus {
     white-space: nowrap;
 }
 
-p, footer {
+p, footer{
+ text-align: center;
+}
+
+p {
 text-align: center;
+color: #000;
 }
 
 .sectionlight {
-    background-color: #efefef;
+    background-color: #CCCCCC;
 }
 
 .sectionmedium {
@@ -71,7 +75,7 @@ text-align: center;
 }
 
 .sectiondark {
-    background-color: #ccc;
+    background-color: #CCCCCC;
 }
 
 img {
@@ -80,7 +84,7 @@ img {
 }
 
 .header {
-    background-color: #ccc;
+    background-color: #CCCCCC;
     overflow: hidden;
 }
 
@@ -95,7 +99,8 @@ img {
 }
 
 .button {
-    font-size: 1.5em;
+    font-size: 1em;
+    border-radius: 9px;
 }
 
 .button-pos {
@@ -121,16 +126,17 @@ img {
 }
 
 .intro {
-    background-color: #e2e2e2;
+    background-color: #660033;
     text-align: center;
 }
 
 .footer {
-    background-color: #e2e2e2;
+    background-color: #660033;
 }
 
 .footer ul a::after { 
   content: " ·";
+  color: #fff;
 }
 
 .header a::after {
@@ -145,7 +151,8 @@ img {
 .text {
     width: 100%;
     padding: .5em;
-    font-size: 1em;
+    font-size: 2em;
+    border-radius: 12px;
 }
 
 .textbox {
@@ -153,16 +160,38 @@ img {
     width: 100%;
     padding: .5em;
     font-size: 1.2em;
+    border-radius: 12px;
+    border: 0;
 }
 
 .header li:last-child a::after {
     content: none;
 }
 
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
 .nav a {
     display: block;
     padding;0;
     text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #669900;
+    color: #fff;
+    border-radius: 6px;
 }
 
 @media only screen and (min-width: 20em){

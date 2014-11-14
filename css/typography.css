@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 "Merriweather",serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -24,9 +24,9 @@ h1, .exa {
   line-height: 1.6648;
 }
 
-h2, .peta {
-  font-size: 1.6018rem;
-  line-height: 1.8729;
+h1, .peta {
+  font-size: 1.4015rem;
+  line-height: 2.8729;
 }
 
 h3, .tera {
@@ -34,12 +34,12 @@ h3, .tera {
   line-height: 1.0535;
 }
 
-h4, .giga {
+h4, .tera {
   font-size: 1.2656rem;
   line-height: 1.1852;
 }
 
-h5, .mega {
+h5, .tera {
   font-size: 1.1250rem;
   line-height: 1.3333;
 }
@@ -140,4 +140,11 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #669900;
+    font-size: 1.7em;
 }
